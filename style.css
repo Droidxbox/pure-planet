@@ -93,6 +93,46 @@ a:hover {
   border-radius: 8px;
   font-weight: bold;
 }
+#donate {
+  text-align: center;
+  padding: 40px 20px;
+  background: #f0f9ff;
+  border-radius: 20px;
+  margin: 40px 0;
+}
+
+#donate h2 {
+  color: #0077b6;
+  margin-bottom: 10px;
+}
+
+.donate-btn {
+  background: #0077b6;
+  color: white;
+  padding: 12px 20px;
+  margin: 15px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.3s ease;
+}
+.donate-btn:hover {
+  background: #023e8a;
+}
+
+.crypto-donate {
+  margin-top: 25px;
+  padding: 20px;
+  border: 2px dashed #0077b6;
+  border-radius: 12px;
+  display: inline-block;
+}
+.crypto-donate p {
+  margin: 5px 0;
+  font-weight: bold;
+}
+
 
 .btn:hover {
   background: #1b4332;
@@ -106,10 +146,5 @@ a:hover {
   padding: 15px;
 }
 
-.card img {
-  width: 100%;
-  height: 180px;
-  object-fit: cover;   /* crops nicely */
-  border-radius: 12px 12px 0 0;  /* rounded corners at the top */
-  margin-bottom: 15px;
+
 }
